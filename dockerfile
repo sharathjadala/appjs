@@ -1,7 +1,7 @@
 FROM node
 WORKDIR /usr/src/app
-COPY package.json .
+COPY package.json /app
 RUN npm install    
 COPY . .
-EXPOSE 8080
+EXPOSE 8888
 CMD ["node", "app.js"]
