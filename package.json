@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/incrivelsoft/HelloWorldnodejApp.git"
+    "url": "git+https://github.com/sharathjadala/appjs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/incrivelsoft/HelloWorldnodejApp/issues"
+    "url": "https://github.com/sharathjadala/appjs.git"
   },
-  "homepage": "https://github.com/incrivelsoft/HelloWorldnodejApp#readme",
+  "homepage": "https://github.com/sharathjadala/appjs.git#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
