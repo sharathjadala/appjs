@@ -1,8 +1,8 @@
-FROM node:6.11.5    
+FROM NODE
 
 WORKDIR /usr/src/app
 COPY package.json .
 RUN npm install    
 COPY . .
 EXPOSE 8080
-CMD [ "npm", "start" ]
+CMD [ "node", "app.js" ]
