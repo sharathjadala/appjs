@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-name: nodeapp
+name: appjs
 labels:
-app: nodeapp
+app: appjs
 spec:
 containers:
-- name: nodeapp
+- name:appjs
 image:sharath0022/sharath123:tagVersion
 ports:
-- containerPort: 8080
+- containerPort: 8888
