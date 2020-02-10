@@ -9,4 +9,4 @@ containers:
 - name:appjs
 image:sharath0022/sharath123:tagVersion
 ports:
-- containerPort: 8888
+- containerPort: 8080
