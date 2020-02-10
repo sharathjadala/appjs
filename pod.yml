@@ -5,8 +5,8 @@ name: appjs
 labels:
 app: appjs
 spec:
-containers:
+containers:docker
 - name:appjs
-image:sharath0022/sharath123:tagVersion
+image:'sharath0022/sharath123:tagVersion'
 ports:
-- containerPort: 8080
+- containerPort: 8888
